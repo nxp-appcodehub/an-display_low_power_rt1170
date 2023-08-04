@@ -1,0 +1,101 @@
+Release Name: Software for AN13768
+Release Version: 1.0
+Description: This software is reference code of AN13768 to show how to power swtich for GPU2D and LCDIFv2.
+
+Package License: LA_OPT_NXP_Software_License v48 July 2023 - Additional Distribution license granted, Section 2.3 applies
+License File: LICENSE.txt
+
+Release Location: https://github.com/nxp-appcodehub/an-display_low_power_rt1170
+Origin: NXP 
+
+--------------------------------------------------------------------------------
+Demo_code                  Name: Demo Code                                
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                             
+                           Description: Source code to show how  
+                           to implement the demo.                                       
+                           Location: board/, source/                         
+                           Origin: NXP (BSD-3-Clause) 
+						   
+SDK_Peripheral_Driver      Name: SDK Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: drivers/
+                           Origin: NXP (BSD-3-Clause)                                              
+
+SDK_Device                 Name: SDK SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                 
+                           Description: Device system files, 
+			   startup,xip and utilities files.             
+                           Location: device/, startup/, utilities/ and xip/
+                           Origin: NXP (BSD-3-Clause)                        
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.6.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: CMSIS/                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0                                          
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: component/, video/                           
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause)    
+
+freertos_kernel            Name: FreeRTOS                                    
+                           Version: 10.4.3_rev1                              
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           freertos/freertos_kernel/LICENSE.md          
+                           Format: source code                               
+                           Description: Open source RTOS kernel for small    
+                           devices                                           
+                           Location: freertos/freertos_kernel           
+                           Origin: Amazon (MIT)                              
+                           Url: https://aws.amazon.com/freertos/             
+
+vglite                     Name: vglite                                      
+                           Version: 3.0.13_rev2                              
+                           Outgoing License: MIT                             
+                           License File: vglite/LICENSE.txt       
+                           Format: source code                               
+                           Description: VeriSilicon's platform independent   
+                           VGLite Graphics library                           
+                           Location: vglite/, elementary/
+                           Origin: VeriSilicon (http://www.verisilicon.com/) 
+                           Url: http://www.verisilicon.com/                  
+
+mcufont                    Name: mcufont                                     
+                           Version: 1.0                                      
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           vglite/font/mcufont/LICENSE            
+                           Format: source code                               
+                           Description: Font rendering library for           
+                           microcontrollers                                  
+                           Location: vglite/font/mcufont          
+                           Origin: Petteri Aimonen                           
+                           (https://github.com/PetteriAimonen)               
+                           Url: https://github.com/mcufont/mcufont

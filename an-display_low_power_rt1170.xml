@@ -1,0 +1,20 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-display_low_power_rt1170" type="app_note" format="projectfile" name="display_low_power_rt1170">
+    <overview>
+        <![CDATA[This application note describes how to add low-power mode operation on the Mobile Industry Processor Interface (MIPI) Display Serial Interface (DSI) host controller and LCDIFv2 controller. It is done to drive a DSI-compliant LCD panel on i.MX RT1170 to switch off and then back on again.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="imxrt"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="display"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+    </categories>
+</data:item>
